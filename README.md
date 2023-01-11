@@ -22,7 +22,7 @@
     - [Install](#install)
     - [Usage](#usage)
   - [👥 Author ](#-author-)
-  - [How to access the database?](#how-to-access-the-database)
+  - [🔭 Future Features](#future-features)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)

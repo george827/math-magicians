@@ -59,13 +59,13 @@ export default class Calculator extends React.Component {
           </li>
           <li className="row">
             <button className="calc_btn" type="button">
-              3
+              1
             </button>
             <button className="calc_btn" type="button">
               2
             </button>
             <button className="calc_btn" type="button">
-              1
+              3
             </button>
             <button className="calc_btn orange_btn" type="button">
               +
