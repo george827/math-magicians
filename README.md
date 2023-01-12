@@ -23,7 +23,7 @@
     - [Usage](#usage)
   - [👥 Author ](#-author-)
   - [🔭 Future Features](#future-features)
-  - [🤝 Contributing ](#-contributing-)
+  - [🤝 Contributing ](#-contributing-)git 
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
