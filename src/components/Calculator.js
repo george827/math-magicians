@@ -15,8 +15,8 @@ export default class Calculator extends React.Component {
 
   clickEvent = (e) => {
     const result = calculate(this.state, e.target.textContent);
-    this.setState((prevState) => ({
-      ...prevState,
+    this.setState((prev) => ({
+      ...prev,
       ...result,
     }));
   };
