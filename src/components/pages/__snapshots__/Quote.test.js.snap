@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders when there is quote 1`] = `
+<div
+  className="quote"
+>
+  <p>
+    "Mathematics is not a careful march down a well-cleared highway, but a journey into a strange wilderness, where the explorers often get lost. Rigor should be a signal to the historians that the maps have been made, and the real explorers have gone elsewhere." W.S. Anglin
+     
+  </p>
+</div>
+`;
