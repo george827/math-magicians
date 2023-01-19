@@ -34,7 +34,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Math Magician] <a name="about-project"></a>
 
 >  **Math Magicians** is a Microverce React project. It is a website for all fans of mathematics. Using this website user can make simple calculations and also can read a random math-related quote.
 
@@ -140,6 +140,7 @@ To run tests, run the following command:
 
   ```sh 
   npm run test
+  ```
 
 
 
@@ -217,6 +218,10 @@ I would like to thank...
 - **[Question_1]**
 
   - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
