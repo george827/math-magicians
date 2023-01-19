@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* calc ui */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.navigation {
+  display: flex;
+  gap: 1.1em;
+  list-style: none;
+}
+
+.navigation li a {
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f5913e;
+  border-left: 2px solid black;
+  text-decoration: none;
+}
+
+.navigation li .home-link {
+  border-left: none;
+}
+
+.navigation li a:hover {
+  color: green;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+/* homepage */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.home h2 {
+  width: 60%;
+  padding: 5%;
+  font-size: 2.3rem;
+}
+
+.home p {
+  width: 80%;
+  line-height: 35px;
+  letter-spacing: 2px;
+  text-align: start;
+  align-self: center;
+  color: rgb(39, 32, 22);
+  font-size: 1.6rem;
+  padding: 3%;
+  box-shadow: rgba(0, 0, 0, 0.56) 1px 22px 70px 4px;
+  border-radius: 10px;
+}
+
+/* calculator page */
+
+.calc-container {
+  width: 100%;
+  max-width: 50rem;
+  background: #fff;
+  align-items: center;
+  margin: 10% 25%;
+}
+
+.calc-input-field {
+  width: 100%;
+}
+
+.inputs {
+  width: 100%;
+  padding: 10px 8px;
+  text-align: right;
+  background: #858694;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+}
+
+.rows {
+  list-style: none;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.calc_btn {
+  padding: 15px;
+  border: none;
+  border: 1px solid #858694;
+  font-size: 0.9rem;
+  font-weight: bold;
+  background: #e0e0e0;
+}
+
+.orange_btn {
+  background: #f5913e;
+}
+
+.btn-zero {
+  grid-column: 1/span 2;
+}
+
+/* quote page */
+.quote {
+  height: 300px;
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote p {
+  padding: 2rem;
+  text-align: center;
+  color: rgb(116, 111, 111);
+  font-size: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.56) 1px 22px 70px 4px;
+  border-radius: 20px;
+}
+
+/* footer section */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  border-top: 1px solid #f5913e;
+  border-bottom: 1px solid #f5913e;
+  border-radius: 10px;
+  margin: 10px 5%;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px;
+  letter-spacing: 4px;
+}
