@@ -80,7 +80,7 @@
 > Clone this repository to your desired folder: cd [folder] to navigate and run the below comand to clone the project
 
 ```sh
-git clone https://github.com/raihan2bd/math-magicians.git
+git clone https://github.com/george827/math-magicians.git
 ```
 
 ### Install
@@ -115,15 +115,25 @@ npm start
 npm run build
 ```
 
+
+# Run tests:
+
+  ```sh 
+  npm install react-test-renderer --save-dev
+  ```
+
+  ```sh 
+  npm run test
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Abu Raihan**
+👤 **George**
 
 - GitHub: [@george827](https://github.com/george827)
-- Twitter: [@twitterhandle](https://twitter.com/raihan2bd)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/raihan2bd)
+- Twitter: [@twitterhandle](https://twitter.com/geok8376)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/george-kinyanjui-030468149/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
